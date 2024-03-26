@@ -1,0 +1,11 @@
+/* header CSS section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+}
+
+.logo {
+  height: 2.2rem;
+}
