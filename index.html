@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- important line for responsive web design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -14,7 +15,7 @@
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="css/queries.css" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
@@ -28,7 +29,8 @@
   </head>
   <body>
     <!-- header -->
-    <header class="header">
+    <!-- add class nav-open to see the nav sliding -->
+    <header class="header ">
       <a href="#">
         <img class="logo" alt="hotfood logo" src="img/HOTFOOD.png" />
       </a>
@@ -43,6 +45,11 @@
         </ul>
         <!-- end of nav -->
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+
       <!-- End of header -->
     </header>
     <!-- main section -->
